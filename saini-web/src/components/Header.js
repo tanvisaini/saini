@@ -5,7 +5,11 @@ import TextChangeOnHover from './TextChangeOnHover';
 
 const Header = () => {
   return (
-    <div> header </div>
+    <div> 
+        <Link to="/"> 
+        <p> home </p>
+        </Link>
+    </div>
   );
 };
 
