@@ -12,6 +12,7 @@ const App = () => {
         <br> </br>
         <Routes>
           <Route path="/" element={<Intro />} />
+        </Routes>
       </div>
     </Router>
   );
