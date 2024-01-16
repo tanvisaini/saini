@@ -1,9 +1,11 @@
 import React from 'react';
+import Cursor from '../components/Cursor'
 
 const Intro = () => {
     return (
         <div> 
-            <h1> intro </h1>
+            <Cursor />
+            <h1 class="text-8xl font-eb text-center"> Tanvi Saini </h1>
         </div>
     );
 };
