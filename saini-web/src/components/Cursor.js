@@ -24,7 +24,7 @@ const Cursor = () => {
     dy: 0,
   }));
 
-  useEffect(() => {
+useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     ctxRef.current = ctx;
@@ -93,7 +93,7 @@ const Cursor = () => {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('touchmove', handleTouchMove);
       window.removeEventListener('resize', setupCanvas);
-    };
+    }; // eslint-disable-next-line
   }, []); // Empty dependency array ensures that this effect runs only once on mount
 
   const setupCanvas = () => {
