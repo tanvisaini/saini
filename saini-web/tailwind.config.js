@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'mont': ['Montserrat Alternates', 'sans-serif'],
-        'eb': ['ebson']
+        'eb': ['ebson'],
+        'leo': ['leoprid']
       }
     },
   },

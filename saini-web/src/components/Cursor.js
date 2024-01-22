@@ -31,7 +31,7 @@ useEffect(() => {
 
     const updateMousePosition = (eX, eY) => {
       pointer.x = eX;
-      pointer.y = eY;
+      pointer.y = eY - 140;
     };
 
     const handleMouseClick = (e) => {
@@ -98,7 +98,7 @@ useEffect(() => {
 
   const setupCanvas = () => {
     const canvas = canvasRef.current;
-    canvas.width = window.innerWidth;
+    canvas.width = window.innerWidth/1.5;
     canvas.height = window.innerHeight;
   };
 

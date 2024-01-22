@@ -3,6 +3,9 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
 
+*{
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,6 +18,11 @@ body {
 @font-face {
   font-family: ebson;
   src: url(./assets/ebson.ttf);
+}
+
+@font-face{
+  font-family: leoprid;
+  src: url(./assets/Leporid-Regular.ttf);
 }
 
 code {
