@@ -9,7 +9,10 @@ module.exports = {
         'mont': ['Montserrat Alternates', 'sans-serif'],
         'eb': ['ebson'],
         'leo': ['leoprid']
-      }
+      },
+      colors:{
+        'orange': '#f3933c',
+      },
     },
   },
   plugins: [],

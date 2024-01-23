@@ -1,15 +1,16 @@
 // Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
     <div> 
-        <div class="flex"> 
+        <div class="flex justify-between"> 
             <Link to="/"> 
-            <h1 class="text-9xl font-leo"> Tanvi Saini </h1>
+            <h1 class="text-9xl font-leo "> Tanvi Saini </h1>
             </Link>
-            <p class="mx-auto">  logo </p>
+            <img class="w-1/6 " src={logo} alt="logo"/>
         </div>
        
     </div>

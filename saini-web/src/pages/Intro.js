@@ -17,7 +17,7 @@ const Intro = () => {
                         and their impact on shapes and sizes. This exploration has become a canvas for my creativity, allowing me to blend the 
                         precision of mathematics with the fluidity of design. 
                         As I embark on the final stages of my undergraduate journey, I find myself deeply engrossed in the world of product design.
-                        My fascination extends to the delicate nuances of User Interface (UI) design, where I dissect and understand how the subtle 
+                        My fascination extends to the delicate nuances of UI/UX design, where I dissect and understand how the subtle 
                         elements of a website can profoundly affect the viewer. This curiosity fuels my dedication to crafting digital experiences 
                         that are not only functional for all but also aesthetically engaging.
 
