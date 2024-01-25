@@ -6,6 +6,7 @@ import Intro from './pages/Intro';
 import RecentWork from './pages/RecentWork';
 import Passion from './pages/Passion';
 import Menu from './components/Menu.js';
+import Footer from './components/Footer.js';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/recentwork" element={<RecentWork />} />
           <Route path="/passion" element={<Passion />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
