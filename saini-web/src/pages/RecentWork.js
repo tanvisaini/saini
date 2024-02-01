@@ -51,7 +51,7 @@ const RecentWork = () => {
     return (
         <div>
             <div>
-                <p className="text-center"> look through some of the projects I've worked on ! </p>
+                <p className="text-center"> look through some of the projects I have worked on ! </p>
             </div>
             <Container className="w-full ">
                <Row className="flex flex-wrap place-content-center">
@@ -61,7 +61,7 @@ const RecentWork = () => {
                                         <Popup trigger=
                                             {
                                             <Card className="px-8" >
-                                            <Card.Img alt="first" className="h-64 lg:h-96" variant="top" src={work.src} />
+                                            <Card.Img alt={work.title} className="h-64 lg:h-96" variant="top" src={work.src} />
                                             <Card.Body>
                                                 <Card.Title className="font-eb text-5xl lg:text-2xl" >{work.title}</Card.Title> 
                                                 {/* <Card.Text className="w-96 ">{work.description}</Card.Text> */}
@@ -75,20 +75,20 @@ const RecentWork = () => {
                                                         <div className=''>
                                                             <div className="flex justify-between">
                                                                 <h1 className="font-eb my-auto text-5xl">{work.title}</h1>
-                                                                <a href={work.to}><img src={githubicon} /></a>
+                                                                <a href={work.to}><img src={githubicon} alt="github icon"/></a>
                                                             </div>
                                                             <div className="flex justify-around"> 
                                                                 {/* eslint-disable-next-line */}
-                                                                <img className="h-64" src={work.src} alt="first" />
+                                                                <img className="h-64" src={work.src} alt={work.title} />
                                                                 {/* eslint-disable-next-line */}
-                                                                <img className="h-64 " src={work.extra} alt="second"/>
+                                                                <img className="h-64 " src={work.extra} alt={work.title} />
                                                             </div>
                                                             <div>
                                                             <h1 className="font-eb text-5xl lg:text-4xl"> About </h1>
                                                             <p className="text-2xl mx-4 lg:text-base">{work.description}</p>
                                                             </div>
                                                             <div>
-                                                            <h1 className="font-eb text-5xl lg:text-4xl"> Why It's Important </h1>
+                                                            <h1 className="font-eb text-5xl lg:text-4xl"> Why It is Important </h1>
                                                             <p className="text-2xl lg:text-base mx-4">{work.why}</p>
                                                             </div>
                                                         </div>
