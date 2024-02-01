@@ -13,8 +13,8 @@ const Footer = () => {
         <img className="w-screen lg:h-96" src={hand} alt="hand" />
         <div className="flex justify-between">
             <p className="text-8xl">         
-                <a href="#" onClick={openMailTo}>
-                    contact me </a> 
+                <button onClick={openMailTo}>
+                    contact me </button> 
             </p>
             <Link to="/resume"> <p className="text-8xl"> resume </p> </Link>
         </div>
