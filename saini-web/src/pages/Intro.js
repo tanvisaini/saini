@@ -3,12 +3,12 @@ import React from 'react';
 import flower from '../assets/Flower.png';
 import olive from '../assets/olive.png';
 import cherry from '../assets/cherry.png';
-import Cursor from '../components/Cursor.js';
+// import Cursor from '../components/Cursor.js';
 
 const Intro = () => {
     return (
         <div>
-            <Cursor class="md:opacity-0 "/>
+            {/* <Cursor class="md:opacity-0 "/> */}
             <div class="flex-inital">
                 <div class="z-1 text-3xl pr-40 pl-5">
                     <p class="text-3xl lg:text-xl"> Welcome! I'm currently navigating my final year at NYU Tandon school of engineering, immersed in the dynamic realms of 

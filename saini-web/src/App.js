@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
+import Land from './pages/Land';
 import Intro from './pages/Intro';
 import RecentWork from './pages/RecentWork';
 import Passion from './pages/Passion';
@@ -18,6 +19,7 @@ const App = () => {
         <br />
         <Routes>
           <Route path="/" element={<Intro />} />
+          <Route path="/intro" element={<Intro />} />
           <Route path="/recentwork" element={<RecentWork />} />
           <Route path="/passion" element={<Passion />} />
           <Route path="/resume" element={<Resume />} />

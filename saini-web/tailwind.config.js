@@ -8,7 +8,8 @@ module.exports = {
       fontFamily: {
         'mont': ['Montserrat Alternates', 'sans-serif'],
         'eb': ['ebson'],
-        'leo': ['leoprid']
+        'leo': ['leoprid'],
+        'pop': ['poppins']
       },
       colors:{
         'orange': '#f3933c',

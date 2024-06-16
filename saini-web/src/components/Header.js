@@ -6,11 +6,13 @@ import logo from '../assets/logo.png';
 const Header = () => {
   return (
     <div> 
-        <div class="flex justify-between"> 
-            <Link to="/"> 
-            <h1 class="text-9xl font-leo "> Tanvi Saini </h1>
+        <div className="flex flex-row"> 
+          <Link to="/" >
+            <img className="" src={logo} alt="logo"/>
             </Link>
-            <img class="w-1/6 " src={logo} alt="logo"/>
+            <Link to="/"> 
+            <h1 className="text-4xl pt-32 font-pop "> Creative Technologist </h1>
+            </Link>
         </div>
        
     </div>
