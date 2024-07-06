@@ -1,16 +1,10 @@
 //Tanvi.js
 import React, {useState, useRef} from 'react';
-import {Link} from 'react-scroll';
-import Menu from '../components/Menu.js';
-import downArrow from '../assets/icons/downArrow.svg';
 import {motion} from "framer-motion";
 import cherry from '../assets/cherry.png';
 import flower from '../assets/Flower.png';
 import olive from '../assets/olive.png';
 import star from '../assets/star.png';
-import github from '../assets/githubicon.png';
-import linkedin from '../assets/linkedinicon.png';
-import email from '../assets/emailicon.png';
 
 
 const Tanvi = () => {

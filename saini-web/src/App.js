@@ -1,13 +1,10 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import RecentWork from './pages/RecentWork';
 import Passion from './pages/Passion';
-import Header from './components/Header';
-import Resume from './pages/Resume';
 import Tanvi from './pages/Tanvi';
 import About from './pages/About';
-import logo from './assets/logo.png';
 import ScrollToTop from './components/ScrollToTop';
 import MenuWrapper from './components/MenuWrapper';
 
