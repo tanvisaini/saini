@@ -4,19 +4,12 @@ import {useState} from 'react';
 import useMousePosition from '../components/useMousePosition';
 import {motion} from 'framer-motion';
 import dotImage from '../assets/strawberry.png';
-import pfp from '../assets/linkedinpfp.JPG';
-import github from '../assets/githubicon.png';
-import linkedin from '../assets/linkedinicon.png';
-import email from '../assets/emailicon.png';
 
 const About = () => {
     const [isHovered, setIsHovered] = useState(false);
     const {x , y} = useMousePosition();
     const size = isHovered ? 700 : 40;
 
-    const openMailTo = () => {
-        window.open('mailto:ts4175@nyu.com?subject=Subject&body=Body%20goes%20here');
-    };
 
     return (
         <div>

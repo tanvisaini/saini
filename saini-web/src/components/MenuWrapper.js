@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import aboutIcon from '../assets/icons/me.svg';
 import contactIcon from '../assets/icons/contact.svg';
 import experienceIcon from '../assets/icons/experience.svg';
