@@ -9,13 +9,30 @@ module.exports = {
         'mont': ['Montserrat Alternates', 'sans-serif'],
         'eb': ['ebson'],
         'leo': ['leoprid'],
-        'pop': ['poppins']
+        'pop': ['poppins'],
+        'teko': ['Teko']
       },
       colors:{
         'orange': '#f3933c',
       },
+      fontSize:{
+        '10xl':'9rem',
+      },
+      maskImage:{
+        'dot-pattern': 'url("assets/icons/dot.svg")',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.mask-dot-pattern': {
+          maskImage: 'url("assets/icons/dot.svg")',
+        },
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    }
+  ],
 }
 

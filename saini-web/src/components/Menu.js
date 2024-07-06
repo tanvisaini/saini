@@ -5,13 +5,17 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => {
   return (
-    <div class="flex font-bold space-x-8 justify-end text-3xl"> 
+    <div class="h-screen flex flex-col lg:pt-24 relative space-y-52 font-serif font-bold 2xl:text-8xl text-7xl lg:text-5xl"> 
         <Link to="/recentwork">
-            <p class="text-5xl lg:text-3xl "> recentwork </p>
+            <p class="px-auto"> recentwork </p>
+        </Link>
+
+        <Link to="/About">
+          <p class=""> about </p>
         </Link>
 
         <Link to="/passion">
-            <p class="text-5xl lg:text-3xl"> madewithlove </p>
+            <p class=""> madewithlove </p>
         </Link>
        
     </div>
