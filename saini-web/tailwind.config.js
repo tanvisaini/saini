@@ -21,6 +21,9 @@ module.exports = {
       maskImage:{
         'dot-pattern': 'url("assets/icons/dot.svg")',
       },
+      spacing:{
+        '148':'38rem',
+      },
     },
   },
   plugins: [

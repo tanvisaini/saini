@@ -14,7 +14,10 @@ const About = () => {
     return (
         <div>
         <div class="relative h-screen w-screen" >
-            <p class="lg:text-10xl fixed text-10xl font-teko font-extrabold"> TANVI SAINI </p>
+            <div class="flex ">
+                <p class="lg:text-10xl fixed pl-5 text-9xl font-teko font-extrabold"> TANVI SAINI </p>
+                <p class="font-teko absolute w-24 left-148 text-6xl"> about me </p>
+            </div>
             <motion.div 
                 className="mask"
                 style={{
@@ -23,7 +26,7 @@ const About = () => {
                     maskRepeat: 'no-repeat',
                     maskSize: `${size}px`,
                 }}
-           > <p class="lg:text-10xl fixed text-10xl font-teko font-extrabold" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}> TANVI SAINI </p> </motion.div>
+           > <p class="lg:text-10xl fixed pl-5 text-9xl font-teko font-extrabold" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}> TANVI SAINI </p> </motion.div>
            <motion.div 
                 className="mask"
                 style={{
@@ -33,7 +36,7 @@ const About = () => {
                     maskSize: `${size}px`,
                 }}
            > 
-           <p class="lg:text-10xl fixed left-0 top-0 text-10xl font-teko font-extrabold" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}> TANVI SAINI </p>
+           <p class="lg:text-10xl fixed left-5 top-0 text-9xl font-teko font-extrabold" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}> TANVI SAINI </p>
            <p class="justify-center w-2/3" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} > 
                 I thrive at the crossroads of art and tech, dancing between the lines of efficient problem-solving and creative design.  </p>
             </motion.div>

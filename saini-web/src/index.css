@@ -65,7 +65,7 @@ span{
 
 .mask{
   position:absolute;
-  top:0;
+  top:10;
   mask-image:url('./assets/icons/dot.svg');
   background-color: brown;
   mask-repeat: no-repeat;
